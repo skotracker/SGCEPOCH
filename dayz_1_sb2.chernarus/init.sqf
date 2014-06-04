@@ -66,6 +66,7 @@ if (isServer) then {
 	//Compile vehicle configs
 	_nil = [] execVM "\z\addons\dayz_server\karpcode\custombuild1.sqf";
 	_nil = [] execVM "\z\addons\dayz_server\karpcode\custombuild2.sqf";
+	_nil = [] execVM "\z\addons\dayz_server\karpcode\lukelug.sqf";
 	// Add trader citys
 	_nil = [] execVM "\z\addons\dayz_server\missions\DayZ_Epoch_11.Chernarus\mission.sqf";
 	_serverMonitor = 	[] execVM "\z\addons\dayz_code\system\server_monitor.sqf";
