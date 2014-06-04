@@ -63,7 +63,7 @@ progressLoadingScreen 1.0;
 
 if (isServer) then {
 	call compile preprocessFileLineNumbers "\z\addons\dayz_server\missions\DayZ_Epoch_11.Chernarus\dynamic_vehicle.sqf";
-	//Compile vehicle configs
+	//Custom tows/buildings
 	_nil = [] execVM "\z\addons\dayz_server\karpcode\custombuild1.sqf";
 	_nil = [] execVM "\z\addons\dayz_server\karpcode\custombuild2.sqf";
 	_nil = [] execVM "\z\addons\dayz_server\karpcode\lukelug.sqf";
@@ -80,7 +80,7 @@ if (!isDedicated) then {
 	//3rd Party scripts
 	_nil = [] execVM "custom\remote_messages.sqf";
 	[] execVM "karpCode\stats.sqf";
-	_nil = [] execVM "karpCode\Server_WelcomeCredits.sqf"; //Welcome credits, love it
+	_nil = [] execVM "karpCode\Server_WelcomeCredits.sqf";
 	
 	//Run the player monitor
 	_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
@@ -106,3 +106,4 @@ if (!isNil "server_name") then {
 		((uiNamespace getVariable "wm_disp") displayCtrl 1) ctrlSetText server_name;
 	};
 };
+diag_log "[KarpCode]: Init read;

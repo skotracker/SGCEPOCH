@@ -38,3 +38,4 @@ while {true} do {
 	_veh removeAllEventHandlers "handleDamage";
 	_veh allowDamage true;
 };
+diag_log "[KarpCode]: Safezone loaded;

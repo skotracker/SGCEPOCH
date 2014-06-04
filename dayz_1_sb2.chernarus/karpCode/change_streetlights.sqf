@@ -140,3 +140,4 @@ do
         }; 
     };
 }
+diag_log "[KarpCode]: Lights turned on;
