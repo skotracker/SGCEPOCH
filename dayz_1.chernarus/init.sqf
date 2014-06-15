@@ -101,14 +101,15 @@ if (!isDedicated) then {
 	[] execVM "fixes\playerstats.sqf";
 	[] execVM "sgc\stats.sqf";
 	[] execVM "sgc\TradeFromVehicle\init.sqf";
-	_nil = [] execVM "sgc\VehicleKeyChanger\VehicleKeyChanger_init.sqf";
 	 //Welcome credits, love it
 	_nil = [] execVM "sgc\Server_WelcomeCredits.sqf";
 	//Run the player monitor
 	_id = player addEventHandler ["Respawn", {_id = [] spawn player_death; _nul = [] execVM "playerspawn.sqf";}];
 	_playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";	
 	_nul = [] execVM "playerspawn.sqf";
-	[] execVM "safezone.sqf";	
+	[] execVM "sgc\safezone.sqf";	
+	_nil = [] execVM "sgc\VehicleKeyChanger\VehicleKeyChanger_init.sqf";
+	[] execVM "scripts\safezonevehicle.sqf";
 };
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
 [] execVM "R3F_ARTY_AND_LOG\init.sqf";
