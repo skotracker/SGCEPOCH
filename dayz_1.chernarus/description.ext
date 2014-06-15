@@ -1,6 +1,6 @@
 respawn = "BASE";
 respawndelay = 5;
-onLoadMission= "DayZ Epoch Chernarus";
+onLoadMission= "DayZ Epoch Chernarus SGC";
 OnLoadIntro = "Welcome to DayZ Epoch Chernarus";
 OnLoadIntroTime = False;
 OnLoadMissionTime = False;
@@ -8,9 +8,6 @@ disabledAI = true;
 disableChannels[] = {0,2,6};
 enableItemsDropping = 0;
 #include "loottables\CfgBuildingLoot.hpp"
-#include "loottables\CfgBuildingPos.hpp"
-#include "loottables\CfgLoot.hpp"
-#include "loottables\CfgLootSmall.hpp"
 
 briefing = 0;
 debriefing = 0;

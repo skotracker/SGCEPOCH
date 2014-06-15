@@ -1,3 +1,5 @@
+#include "cfgLoot.hpp"
+
 class CfgBuildingLoot
 {
 	class Default
@@ -43,7 +45,26 @@ class CfgBuildingLoot
 			{ "specialclothes","single" },
 			{ "WeaponHolder_MeleeCrowbar","object" },
 			{ "shotgunsingleshot","cfglootweapon" }};
-		itemChance[] = {0.04,0.03,0.02,0.1,0.01,0.04,0.01,0.36,0.04,0.01,0.02,0.17,0.02,0.02,0.01,0.01,0.03,0.06};
+		itemChance[] = {
+			0.04,
+			0.03,
+			0.02,
+			0.1,
+			0.01,
+			0.04,
+			0.01,
+			0.36,
+			0.04,
+			0.01,
+			0.02,
+			0.17,
+			0.02,
+			0.02,
+			0.01,
+			0.01,
+			0.03,
+			0.06
+		};
 		itemTypeSmall[] = {
 			{ "ItemSodaMdew","magazine" },
 			{ "ItemSodaRbull","magazine" },
@@ -61,7 +82,24 @@ class CfgBuildingLoot
 			{ "Binocular","weapon" },
 			{ "clothes","single" },
 			{ "specialclothes","single" }};
-		itemChanceSmall[] = {0.01,0.01,0.02,0.05,0.04,0.03,0.12,0.02,0.04,0.03,0.38,0.04,0.17,0.02,0.01,0.01};
+		itemChanceSmall[] = {
+			0.01,
+			0.01,
+			0.02,
+			0.05,
+			0.04,
+			0.03,
+			0.12,
+			0.02,
+			0.04,
+			0.03,
+			0.38,
+			0.04,
+			0.17,
+			0.02,
+			0.01,
+			0.01
+		};
 	};
 	class Office: Default
 	{
@@ -90,7 +128,27 @@ class CfgBuildingLoot
 			{ "specialclothes","single" },
 			{ "WeaponHolder_MeleeCrowbar","object" },
 			{ "ItemBriefcaseEmpty","magazine" }};
-		itemChance[] = {0.04,0.03,0.02,0.11,0.01,0.04,0.01,0.31,0.05,0.04,0.01,0.02,0.21,0.02,0.02,0.01,0.01,0.03,0.01};
+		itemChance[] = {
+			0.04,
+			0.03,
+			0.02,
+			0.11,
+			0.01,
+			0.04,
+			0.01,
+			0.31,
+			0.05,
+			0.04,
+			0.01,
+			0.02,
+			0.21,
+			0.02,
+			0.02,
+			0.01,
+			0.01,
+			0.03,
+			0.01
+		};
 		itemTypeSmall[] = {
 			{ "ItemSodaMdew","magazine" },
 			{ "ItemSodaRbull","magazine" },
@@ -109,7 +167,25 @@ class CfgBuildingLoot
 			{ "clothes","single" },
 			{ "specialclothes","single" },
 			{ "ItemDocument","magazine" }};
-		itemChanceSmall[] = {0.01,0.01,0.02,0.05,0.04,0.03,0.15,0.02,0.05,0.03,0.31,0.04,0.03,0.02,0.16,0.02,0.01};
+		itemChanceSmall[] = {
+			0.01,
+			0.01,
+			0.02,
+			0.05,
+			0.04,
+			0.03,
+			0.15,
+			0.02,
+			0.05,
+			0.03,
+			0.31,
+			0.04,
+			0.03,
+			0.02,
+			0.16,
+			0.02,
+			0.01
+		};
 	};
 	class Industrial: Default
 	{
@@ -139,14 +215,41 @@ class CfgBuildingLoot
 			{ "ItemKeyKit","weapon" },
 			{ "CinderBlocks","magazine" },
 			{ "MortarBucket","magazine" }};
-		itemChance[] = {0.01,0.01,0.17,0.25,0.04,0.04,0.05,0.02,0.02,0.04,0.01,0.04,0.07,0.07,0.06,0.01,0.04,0.01,0.03,0.01};
+		itemChance[] = {
+			0.01,
+			0.01,
+			0.17,
+			0.25,
+			0.04,
+			0.04,
+			0.05,
+			0.02,
+			0.02,
+			0.04,
+			0.01,
+			0.04,
+			0.07,
+			0.07,
+			0.06,
+			0.01,
+			0.04,
+			0.01,
+			0.03,
+			0.01
+		};
 		itemTypeSmall[] = {
 			{ "","generic" },
 			{ "","trash" },
 			{ "","military" },
 			{ "ItemKnife","weapon" },
 			{ "ItemKeyKit","weapon" }};
-		itemChanceSmall[] = {0.5,0.28,0.14,0.07,0.01};
+		itemChanceSmall[] = {
+			0.5,
+			0.28,
+			0.14,
+			0.07,
+			0.01
+		};
 	};
 	class IndustrialFuel: Default
 	{
@@ -174,14 +277,39 @@ class CfgBuildingLoot
 			{ "ItemWire","magazine" },
 			{ "ItemTankTrap","magazine" },
 			{ "ItemKeyKit","weapon" }};
-		itemChance[] = {0.01,0.01,0.18,0.28,0.04,0.04,0.05,0.02,0.02,0.04,0.01,0.04,0.07,0.07,0.06,0.01,0.04,0.01};
+		itemChance[] = {
+			0.01,
+			0.01,
+			0.18,
+			0.28,
+			0.04,
+			0.04,
+			0.05,
+			0.02,
+			0.02,
+			0.04,
+			0.01,
+			0.04,
+			0.07,
+			0.07,
+			0.06,
+			0.01,
+			0.04,
+			0.01
+		};
 		itemTypeSmall[] = {
 			{ "","generic" },
 			{ "","trash" },
 			{ "","military" },
 			{ "ItemKnife","weapon" },
 			{ "ItemKeyKit","weapon" }};
-		itemChanceSmall[] = {0.5,0.28,0.14,0.07,0.01};
+		itemChanceSmall[] = {
+			0.5,
+			0.28,
+			0.14,
+			0.07,
+			0.01
+		};
 	};
 	class Farm: Default
 	{
@@ -202,14 +330,32 @@ class CfgBuildingLoot
 			{ "ItemFishingPole","weapon" },
 			{ "ItemLightBulb","magazine" },
 			{ "ItemSledgeHandle","magazine" }};
-		itemChance[] = {0.05,0.3,0.18,0.26,0.06,0.05,0.01,0.03,0.02,0.02,0.02};
+		itemChance[] = {
+			0.05,
+			0.3,
+			0.18,
+			0.26,
+			0.06,
+			0.05,
+			0.01,
+			0.03,
+			0.02,
+			0.02,
+			0.02
+		};
 		itemTypeSmall[] = {
 			{ "","generic" },
 			{ "","trash" },
 			{ "","military" },
 			{ "ItemLightBulb","magazine" },
 			{ "ItemSledgeHead","magazine" }};
-		itemChanceSmall[] = {0.79,0.14,0.05,0.01,0.01};
+		itemChanceSmall[] = {
+			0.79,
+			0.14,
+			0.05,
+			0.01,
+			0.01
+		};
 	};
 	class Supermarket: Default
 	{
@@ -231,10 +377,28 @@ class CfgBuildingLoot
 			{ "backpacks","backpack" },
 			{ "tents","single" },
 			{ "","food" },
+			{ "","trash" },
 			{ "Binocular","weapon" },
-			{ "AKS_74_GOSHAWK","weapon" },
+			{ "ItemDocument","magazine" },
 			{ "PartPlywoodPack","magazine" }};
-		itemChance[] = {0.07,0.02,0.04,0.04,0.01,0.02,0.04,0.04,0.04,0.07,0.01,0.3,0.05,0.99,0.02};
+		itemChance[] = {
+			0.07,
+			0.02,
+			0.04,
+			0.04,
+			0.01,
+			0.02,
+			0.04,
+			0.04,
+			0.04,
+			0.07,
+			0.01,
+			0.3,
+			0.23,
+			0.05,
+			0.2,
+			0.02
+		};
 		itemTypeSmall[] = {
 			{ "ItemSodaMdew","magazine" },
 			{ "ItemSodaRbull","magazine" },
@@ -251,7 +415,23 @@ class CfgBuildingLoot
 			{ "","trash" },
 			{ "Binocular","weapon" },
 			{ "ItemMixOil","magazine" }};
-		itemChanceSmall[] = {0.01,0.01,0.03,0.07,0.03,0.05,0.08,0.01,0.02,0.04,0.21,0.24,0.16,0.02,0.02};
+		itemChanceSmall[] = {
+			0.01,
+			0.01,
+			0.03,
+			0.07,
+			0.03,
+			0.05,
+			0.08,
+			0.01,
+			0.02,
+			0.04,
+			0.21,
+			0.24,
+			0.16,
+			0.02,
+			0.02
+		};
 	};
 	class HeliCrash: Default
 	{
@@ -274,7 +454,21 @@ class CfgBuildingLoot
 			{ "AmmoBoxSmall_762","object" },
 			{ "militaryclothes","single" },
 			{ "militaryammo","single" }};
-		itemChance[] = {0.1,0.04,0.07,0.06,0.3,0.18,0.02,0.05,0.01,0.03,0.03,0.05,0.06};
+		itemChance[] = {
+			0.1,
+			0.04,
+			0.07,
+			0.06,
+			0.3,
+			0.18,
+			0.02,
+			0.05,
+			0.01,
+			0.03,
+			0.03,
+			0.05,
+			0.06
+		};
 	};
 	class HeliCrash_No50s: Default
 	{
@@ -297,7 +491,21 @@ class CfgBuildingLoot
 			{ "AmmoBoxSmall_762","object" },
 			{ "militaryclothes","single" },
 			{ "militaryammo","single" }};
-		itemChance[] = {0.09,0.03,0.05,0.05,0.35,0.18,0.02,0.05,0.01,0.03,0.03,0.05,0.06};
+		itemChance[] = {
+			0.09,
+			0.03,
+			0.05,
+			0.05,
+			0.35,
+			0.18,
+			0.02,
+			0.05,
+			0.01,
+			0.03,
+			0.03,
+			0.05,
+			0.06
+		};
 	};
 	class Hospital: Default
 	{
@@ -311,11 +519,18 @@ class CfgBuildingLoot
 			{ "","trash" },
 			{ "","hospital" },
 			{ "MedBox0","object" }};
-		itemChance[] = {0.1,0.7,0.2};
+		itemChance[] = {
+			0.1,
+			0.7,
+			0.2
+		};
 		itemTypeSmall[] = {
 			{ "","trash" },
 			{ "","hospital" }};
-		itemChanceSmall[] = {0.1,0.9};
+		itemChanceSmall[] = {
+			0.1,
+			0.9
+		};
 	};
 	class Military: Default
 	{
@@ -342,7 +557,25 @@ class CfgBuildingLoot
 			{ "ItemEtool","weapon" },
 			{ "ItemSandbag","magazine" },
 			{ "machineguns","cfglootweapon" }};
-		itemChance[] = {0.04,0.13,0.04,0.06,0.07,0.03,0.04,0.01,0.01,0.02,0.05,0.03,0.1,0.3,0.02,0.02,0.03};
+		itemChance[] = {
+			0.04,
+			0.13,
+			0.04,
+			0.06,
+			0.07,
+			0.03,
+			0.04,
+			0.01,
+			0.01,
+			0.02,
+			0.05,
+			0.03,
+			0.1,
+			0.3,
+			0.02,
+			0.02,
+			0.03
+		};
 		itemTypeSmall[] = {
 			{ "pistols","cfglootweapon" },
 			{ "Binocular","weapon" },
@@ -355,7 +588,19 @@ class CfgBuildingLoot
 			{ "","military" },
 			{ "submachinegun","cfglootweapon" },
 			{ "ItemEtool","weapon" }};
-		itemChanceSmall[] = {0.15,0.02,0.03,0.04,0.02,0.02,0.09,0.34,0.26,0.02,0.01};
+		itemChanceSmall[] = {
+			0.15,
+			0.02,
+			0.03,
+			0.04,
+			0.02,
+			0.02,
+			0.09,
+			0.34,
+			0.26,
+			0.02,
+			0.01
+		};
 	};
 	class MilitaryIndustrial: Default
 	{
@@ -387,7 +632,30 @@ class CfgBuildingLoot
 			{ "ItemFuelBarrelEmpty","magazine" },
 			{ "ItemFuelPump","magazine" },
 			{ "machineguns","cfglootweapon" }};
-		itemChance[] = {0.02,0.05,0.03,0.01,0.05,0.01,0.05,0.02,0.01,0.03,0.04,0.01,0.01,0.03,0.05,0.35,0.07,0.03,0.02,0.03,0.01,0.01};
+		itemChance[] = {
+			0.02,
+			0.05,
+			0.03,
+			0.01,
+			0.05,
+			0.01,
+			0.05,
+			0.02,
+			0.01,
+			0.03,
+			0.04,
+			0.01,
+			0.01,
+			0.03,
+			0.05,
+			0.35,
+			0.07,
+			0.03,
+			0.02,
+			0.03,
+			0.01,
+			0.01
+		};
 		itemTypeSmall[] = {
 			{ "pistols","cfglootweapon" },
 			{ "Binocular","weapon" },
@@ -399,7 +667,18 @@ class CfgBuildingLoot
 			{ "","military" },
 			{ "submachinegun","cfglootweapon" },
 			{ "ItemEtool","weapon" }};
-		itemChanceSmall[] = {0.12,0.05,0.03,0.04,0.02,0.02,0.09,0.34,0.26,0.03};
+		itemChanceSmall[] = {
+			0.12,
+			0.05,
+			0.03,
+			0.04,
+			0.02,
+			0.02,
+			0.09,
+			0.34,
+			0.26,
+			0.03
+		};
 	};
 	class IndustrialMilitary: Default
 	{
@@ -434,7 +713,33 @@ class CfgBuildingLoot
 			{ "ItemFuelBarrelEmpty","magazine" },
 			{ "ItemFuelPump","magazine" },
 			{ "machineguns","cfglootweapon" }};
-		itemChance[] = {0.02,0.05,0.03,0.01,0.05,0.01,0.05,0.02,0.01,0.03,0.04,0.01,0.01,0.03,0.04,0.05,0.03,0.05,0.25,0.07,0.03,0.02,0.03,0.01,0.01};
+		itemChance[] = {
+			0.02,
+			0.05,
+			0.03,
+			0.01,
+			0.05,
+			0.01,
+			0.05,
+			0.02,
+			0.01,
+			0.03,
+			0.04,
+			0.01,
+			0.01,
+			0.03,
+			0.04,
+			0.05,
+			0.03,
+			0.05,
+			0.25,
+			0.07,
+			0.03,
+			0.02,
+			0.03,
+			0.01,
+			0.01
+		};
 		itemTypeSmall[] = {
 			{ "pistols","cfglootweapon" },
 			{ "Binocular","weapon" },
@@ -446,7 +751,18 @@ class CfgBuildingLoot
 			{ "","military" },
 			{ "submachinegun","cfglootweapon" },
 			{ "ItemEtool","weapon" }};
-		itemChanceSmall[] = {0.12,0.05,0.03,0.04,0.02,0.02,0.09,0.34,0.26,0.03};
+		itemChanceSmall[] = {
+			0.12,
+			0.05,
+			0.03,
+			0.04,
+			0.02,
+			0.02,
+			0.09,
+			0.34,
+			0.26,
+			0.03
+		};
 	};
 	class MilitarySpecial: Default
 	{
@@ -478,7 +794,29 @@ class CfgBuildingLoot
 			{ "machinegunammo","single" },
 			{ "militaryclothes","single" },
 			{ "NVGoggles","weapon" }};
-		itemChance[] = {0.1,0.04,0.08,0.03,0.05,0.06,0.01,0.02,0.01,0.02,0.01,0.01,0.01,0.01,0.04,0.08,0.3,0.01,0.05,0.05,0.01};
+		itemChance[] = {
+			0.1,
+			0.04,
+			0.08,
+			0.03,
+			0.05,
+			0.06,
+			0.01,
+			0.02,
+			0.01,
+			0.02,
+			0.01,
+			0.01,
+			0.01,
+			0.01,
+			0.04,
+			0.08,
+			0.3,
+			0.01,
+			0.05,
+			0.05,
+			0.01
+		};
 		itemTypeSmall[] = {
 			{ "pistols","cfglootweapon" },
 			{ "AmmoBoxSmall_556","object" },
@@ -498,7 +836,28 @@ class CfgBuildingLoot
 			{ "militaryclothes","single" },
 			{ "NVGoggles","weapon" },
 			{ "100Rnd_762x54_PK","magazine" }};
-		itemChanceSmall[] = {0.1,0.02,0.02,0.02,0.01,0.02,0.01,0.03,0.01,0.06,0.15,0.33,0.02,0.02,0.05,0.04,0.02,0.05,0.01,0.01};
+		itemChanceSmall[] = {
+			0.1,
+			0.02,
+			0.02,
+			0.02,
+			0.01,
+			0.02,
+			0.01,
+			0.03,
+			0.01,
+			0.06,
+			0.15,
+			0.33,
+			0.02,
+			0.02,
+			0.05,
+			0.04,
+			0.02,
+			0.05,
+			0.01,
+			0.01
+		};
 	};
 	class Hunting: Default
 	{
@@ -517,7 +876,16 @@ class CfgBuildingLoot
 			{ "","military" },
 			{ "WeaponHolder_ItemMachete","object" },
 			{ "","hunter" }};
-		itemChance[] = {0.02,0.01,0.01,0.03,0.03,0.38,0.02,0.5};
+		itemChance[] = {
+			0.02,
+			0.01,
+			0.01,
+			0.03,
+			0.03,
+			0.38,
+			0.02,
+			0.5
+		};
 		itemTypeSmall[] = {
 			{ "ItemMap","weapon" },
 			{ "ItemFlashlight","weapon" },
@@ -525,7 +893,14 @@ class CfgBuildingLoot
 			{ "ItemMatchbox_DZE","weapon" },
 			{ "","military" },
 			{ "","hunter" }};
-		itemChanceSmall[] = {0.02,0.02,0.02,0.04,0.4,0.5};
+		itemChanceSmall[] = {
+			0.02,
+			0.02,
+			0.02,
+			0.04,
+			0.4,
+			0.5
+		};
 	};
 	class DynamicDebris: Default
 	{
@@ -552,7 +927,25 @@ class CfgBuildingLoot
 			{ "PartEngine","magazine" },
 			{ "PartGlass","magazine" },
 			{ "WeaponHolder_ItemJerrycan","object" }};
-		itemChance[] = {0.191,0.012,0.062,0.024,0.024,0.055,0.055,0.055,0.022,0.169,0.055,0.066,0.055,0.033,0.011,0.078,0.033};
+		itemChance[] = {
+			0.191,
+			0.012,
+			0.062,
+			0.024,
+			0.024,
+			0.055,
+			0.055,
+			0.055,
+			0.022,
+			0.169,
+			0.055,
+			0.066,
+			0.055,
+			0.033,
+			0.011,
+			0.078,
+			0.033
+		};
 	};
 	class DynamicDebrisMilitary: Default
 	{
@@ -583,7 +976,29 @@ class CfgBuildingLoot
 			{ "PartGlass","magazine" },
 			{ "PartVRotor","magazine" },
 			{ "WeaponHolder_ItemJerrycan","object" }};
-		itemChance[] = {0.05,0.1,0.08,0.1,0.02,0.05,0.01,0.02,0.01,0.05,0.05,0.02,0.15,0.05,0.06,0.05,0.03,0.02,0.03,0.02,0.03};
+		itemChance[] = {
+			0.05,
+			0.1,
+			0.08,
+			0.1,
+			0.02,
+			0.05,
+			0.01,
+			0.02,
+			0.01,
+			0.05,
+			0.05,
+			0.02,
+			0.15,
+			0.05,
+			0.06,
+			0.05,
+			0.03,
+			0.02,
+			0.03,
+			0.02,
+			0.03
+		};
 	};
 	class SupplyDrop: Default
 	{
@@ -601,7 +1016,16 @@ class CfgBuildingLoot
 			{ "bulk_ItemSandbag","magazine" },
 			{ "bulk_ItemTankTrap","magazine" },
 			{ "ItemSledge","weapon" }};
-		itemChance[] = {0.1,0.2,0.1,0.1,0.2,0.1,0.1,0.1};
+		itemChance[] = {
+			0.1,
+			0.2,
+			0.1,
+			0.1,
+			0.2,
+			0.1,
+			0.1,
+			0.1
+		};
 	};
 	class MassGrave: Default
 	{
@@ -666,6 +1090,63 @@ class CfgBuildingLoot
 			{ "2000Rnd_762x51_M134","magazine" },
 			{ "KSVK_DZE","weapon" },
 			{ "m240_scoped_EP1_DZE","weapon" }};
-		itemChance[] = {0.03,0.01,0.01,0.02,0.01,0.02,0.01,0.01,0.02,0.02,0.01,0.01,0.02,0.01,0.01,0.01,0.02,0.03,0.01,0.02,0.02,0.01,0.01,0.01,0.01,0.01,0.03,0.03,0.01,0.02,0.01,0.01,0.01,0.01,0.03,0.02,0.02,0.02,0.01,0.01,0.05,0.05,0.13,0.01,0.01,0.01,0.01,0.01,0.01,0.05,0.02,0.01,0.01,0.01,0.01};
+		itemChance[] = {
+			0.03,
+			0.01,
+			0.01,
+			0.02,
+			0.01,
+			0.02,
+			0.01,
+			0.01,
+			0.02,
+			0.02,
+			0.01,
+			0.01,
+			0.02,
+			0.01,
+			0.01,
+			0.01,
+			0.02,
+			0.03,
+			0.01,
+			0.02,
+			0.02,
+			0.01,
+			0.01,
+			0.01,
+			0.01,
+			0.01,
+			0.03,
+			0.03,
+			0.01,
+			0.02,
+			0.01,
+			0.01,
+			0.01,
+			0.01,
+			0.03,
+			0.02,
+			0.02,
+			0.02,
+			0.01,
+			0.01,
+			0.05,
+			0.05,
+			0.13,
+			0.01,
+			0.01,
+			0.01,
+			0.01,
+			0.01,
+			0.01,
+			0.05,
+			0.02,
+			0.01,
+			0.01,
+			0.01,
+			0.01
+		};
 	};
+	#include "CfgLootPos.hpp"
 };

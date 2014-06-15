@@ -48,6 +48,7 @@ DZE_ForceNameTags = true;
 DZE_PlayerZed = false;
 DZE_BackpackGuard = false;
 DZE_DiagFpsSlow = true;
+DZE_MissionLootTable = true;
 
 //Epoch Config Variables
 call compile preprocessFileLineNumbers "config\epochconfig.sqf";	
