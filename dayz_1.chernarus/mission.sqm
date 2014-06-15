@@ -1298,7 +1298,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=5;
+		items=12;
 		class Item0
 		{
 			position[]={6325.6772,304.99033,7807.7412};
@@ -1309,9 +1309,9 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonestary";
-			expCond="(player distance zonestary) < 100;";
-			expActiv="TitleText[""Now entering trader city Stary"",""PLAIN DOWN""]; canbuild = false; inTraderCity = ""Stary"";";
-			expDesactiv="TitleText[""Now leaving trader city Stary"",""PLAIN DOWN""]; canbuild = true; inTraderCity = ""Any"";";
+			expCond="(player distance zonestary) < 75;";
+			expActiv="TitleText[""Now entering trader city Stary - god mode on"",""PLAIN DOWN""]; canbuild = false; execVM ""theft.sqf"";";
+			expDesactiv="TitleText[""Now leaving trader city Stary - god mode off"",""PLAIN DOWN""]; canbuild = true;";
 			class Effects
 			{
 			};
@@ -1326,9 +1326,9 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonebash";
-			expCond="(player distance zonebash) < 100;";
-			expActiv="TitleText[""Now entering trader city Bash"",""PLAIN DOWN""]; canbuild = false; inTraderCity = ""Bash"";";
-			expDesactiv="TitleText[""Now leaving trader city Bash"",""PLAIN DOWN""]; canbuild = true; inTraderCity = ""Any"";";
+			expCond="(player distance zonebash) < 75;";
+			expActiv="TitleText[""Now entering trader city Bash - god mode on"",""PLAIN DOWN""]; canbuild = false; execVM ""theft.sqf"";";
+			expDesactiv="TitleText[""Now leaving trader city Bash - god mode off"",""PLAIN DOWN""]; canbuild = true;";
 			class Effects
 			{
 			};
@@ -1343,47 +1343,157 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="zoneklen";
-			expCond="(player distance zoneklen) < 100;";
-			expActiv="TitleText[""Now entering trader city Klen"",""PLAIN DOWN""]; canbuild = false; inTraderCity = ""Klen"";";
-			expDesactiv="TitleText[""Now leaving trader city Klen"",""PLAIN DOWN""]; canbuild = true; inTraderCity = ""Any"";";
+			expCond="(player distance zoneklen) < 75;";
+			expActiv="TitleText[""Now entering trader city Klen - god mode on"",""PLAIN DOWN""]; canbuild = false; execVM ""theft.sqf"";";
+			expDesactiv="TitleText[""Now leaving trader city Klen - god mode off"",""PLAIN DOWN""]; canbuild = true;";
 			class Effects
 			{
 			};
 		};
 		class Item3
 		{
-			position[]={1606.6443,289.70795,7803.5156};
-			a=100;
-			b=100;
-			activationBy="WEST";
+			position[]={4063.4226,365.00577,11664.19};
+			activationBy="ANY";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
-			name="zonebandit";
-			expCond="(player distance zonebandit) < 100;";
-			expActiv="canbuild = false; inTraderCity = ""Bandit Trader"";";
-			expDesactiv="canbuild = true; inTraderCity = ""Any"";";
+			name="zonebash_safezone";
+			expCond="(player distance zonebash_safezone) < 75;";
+			expActiv="inSafeZone = true;";
+			expDesactiv="inSafeZone = false;";
 			class Effects
 			{
+				
 			};
 		};
 		class Item4
 		{
+			position[]={11447.472,317.26886,11364.504};
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zoneklen_safezone";
+			expCond="(player distance zoneklen_safezone) < 75;";
+			expActiv="inSafeZone = true;";
+			expDesactiv="inSafeZone = false;";
+			class Effects
+			{
+				
+			};
+		};
+		class Item5
+		{
+			position[]={6325.6772,304.99033,7807.7412};
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zonestary_safezone";
+			expCond="(player distance zonestary_safezone) < 75;";
+			expActiv="inSafeZone = true;";
+			expDesactiv="inSafeZone = false;";
+			class Effects
+			{
+				
+			};
+        };
+		class Item6
+		{
+			position[]={1606.6443,289.70795,7803.5156};
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="bandit_safezone";
+			expCond="(player distance bandit_safezone) < 75;";
+			expActiv="inSafeZone = true;";
+			expDesactiv="inSafeZone = false;";
+			class Effects
+			{
+				
+			};
+        };
+		class Item7
+		{
 			position[]={12944.227,210.19823,12766.889};
-			a=100;
-			b=100;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="Hero_safezone";
+			expCond="(player distance Hero_safezone) < 75;";
+			expActiv="inSafeZone = true;";
+			expDesactiv="inSafeZone = false;";
+			class Effects
+			{
+				
+			};
+        };
+		class Item8
+		{
+			position[]={12060.471,158.85699,12638.533};
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="Aircraft_safezone";
+			expCond="(player distance Aircraft_safezone) < 75;";
+			expActiv="inSafeZone = true;";
+			expDesactiv="inSafeZone = false;";
+			class Effects
+			{
+				
+			};
+        };		
+		class Item9
+		{
+			position[]={12944.227,210.19823,12766.889}; 
 			activationBy="WEST";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonehero";
-			expCond="(player distance zonehero) < 100;";
-			expActiv="canbuild = false; inTraderCity = ""Hero Trader"";";
-			expDesactiv="canbuild = true; inTraderCity = ""Any"";";
+			expCond="(player distance zonehero) < 75;";
+			expActiv="TitleText[""Now entering Hero Trader area - god mode on"",""PLAIN DOWN""]; canbuild = false; execVM ""theft.sqf"";";
+			expDesactiv="TitleText[""Now leaving Hero Trader area - god mode off"",""PLAIN DOWN""]; canbuild = true;";
 			class Effects
 			{
+				
 			};
-		};
+		};	
+		class Item10
+		{
+			position[]={1606.6443,289.70795,7803.5156}; 
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zonebandit";
+			expCond="(player distance zonebandit) < 75;";
+			expActiv="TitleText[""Now entering Bandit Trader area - god mode on"",""PLAIN DOWN""]; canbuild = false; execVM ""theft.sqf"";";
+			expDesactiv="TitleText[""Now leaving Bandit Trader area - god mode off"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+				
+			};
+		};	
+		class Item11
+		{
+			position[]={12060.471,158.85699,12638.533}; 
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zoneplane";
+			expCond="(player distance zoneplane) < 75;";
+			expActiv="TitleText[""Now entering Plane Dealer area - god mode on"",""PLAIN DOWN""]; canbuild = false; execVM ""theft.sqf"";";
+			expDesactiv="TitleText[""Now leaving Plane Dealer area - god mode off"",""PLAIN DOWN""]; canbuild = true;";
+			class Effects
+			{
+				
+			};
+		};		
 	};
 };
 class Intro
